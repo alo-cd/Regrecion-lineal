@@ -11,8 +11,10 @@ def regresion_lineal(x, y):
     # Calculando los coeficientes de la regresión lineal
     m = (n * sum_xy - sum_x * sum_y) / (n * sum_x_squared - sum_x**2)
     b = (sum_y - m * sum_x) / n
+    # Creando el resultado en texto
+    resultado_texto = f"La función de regresión lineal es: y = {m:.2f}x + {b:.2f}"
     
-    return m, b
+    return m, b, resultado_texto
 
 def main():
     # Pedir al usuario que ingrese los datos
@@ -21,7 +23,8 @@ def main():
     y_values = np.array(eval(input("Ingrese los valores de y separados por comas: ")))
     
     # Ajustar la función utilizando regresión lineal
-    m, b = regresion_lineal(x_values, y_values)
+    m, b, resultado_texto = regresion_lineal(x_values, y_values)
+    print(resultado_texto)  # Mostrar el resultado en texto
     
     # Generar la línea de regresión
     x_regresion = np.linspace(min(x_values), max(x_values), 100)
@@ -39,4 +42,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
