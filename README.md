@@ -44,9 +44,13 @@ y = 2x + 1
 Y los siguientes pares de datos:
 
 (1, 3)
+
 (2, 5)
+
 (3, 7)
+
 (4, 9)
+
 (5, 11)
 
 
