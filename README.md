@@ -2,8 +2,6 @@
 
 Este repositorio contiene un programa en Python que utiliza el método de regresión lineal para ajustar una función ingresada por el usuario y luego grafica los datos originales y la línea de regresión.
 
-![Regresión Lineal](regresion_lineal.png)
-
 ## Instalación
 
 1. Clona este repositorio en tu máquina local utilizando Git:
