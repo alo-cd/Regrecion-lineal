@@ -1,3 +1,6 @@
+#INTEGRANTES: Chávez Diaz Diana Alondra, Mondragón Armendariz Alma Nayeli, Nuñez Celaya Karen Itzel y Uroza Martinez Esmeralda
+#GRUPO: 1741
+#FECHA: 16/06/24
 import numpy as np
 import matplotlib.pyplot as plt
 
